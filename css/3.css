@@ -1,0 +1,443 @@
+@charset "utf-8";
+body{
+    background: #F4F4F4;
+}
+#top{
+    background: #E3E4E6;
+    height: 35px;
+    line-height: 35px;
+    font-size: 14px;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+#top a{
+    margin-left: 10px;
+    color: #E60000;
+}
+#top ul li{
+    float: left;
+}
+#top ul li p:hover{
+    color: #E60000;
+}
+#top ul li span{
+    margin: 0 10px;
+    color: #E60000;
+}
+.hav{
+    background:#F4F4F4 ;
+    height: 105px;
+}
+.logo{
+    border-top: 1px solid #F4F4F4;
+}
+.logo p{
+    margin-left: 220px;
+}
+.logo p:nth-child(2){
+    color: #E60000;
+    margin-left: 235px;
+    margin-top: 30px;
+}
+.search{
+    width: 327px;
+    height: 39px;
+    margin-left: 170px;
+    margin-top: 30px;
+    position: relative;
+}
+.search input{
+    display: inline-block;
+    width: 325px;
+    height: 37px;
+    border: 1px solid #E50100;
+    background: #ffffff;
+    border-radius: 20px;
+}
+.search .button{
+    width: 97px;
+    height: 39px;
+    line-height: 39px;
+    background-color: #E50100;
+    position: absolute;
+    right: 0;
+    top:0;
+    border-radius: 20px;
+    text-align: center;
+    color: #ffffff;
+}
+.search .button span{
+    font-size: 20px;
+}
+.hav .tele{
+    font-size: 20px;
+    color: #E50100;
+    margin-top: 30px;
+}
+.hav .tele span{
+    vertical-align: middle;
+}
+.hav .tele span:nth-child(1){
+    font-size: 40px;
+}
+.nav .left{
+    width: 190px;
+    height: 36px;
+    line-height: 36px;
+    background: #060606;
+    color: #ffffff;
+}
+.nav .left span{
+    margin: 0 15px;
+}
+.nav .right{
+    width: 1000px;
+    height: 36px;
+    line-height: 36px;
+    background: #E60000;
+}
+.nav .right ul{
+    margin-left: 31px;
+}
+.nav .right li{
+    float: left;
+    margin: 0 11px;
+}
+.nav .right li a{
+    color: #ffffff;
+}
+.nav .right li a:hover{
+    text-decoration: underline;
+}
+.tab .tab-t{
+    height: 62px;
+    line-height: 62px;
+    background: #F4F5F7;
+    padding: 0 5px;
+    box-sizing: border-box;
+    font-size: 12px;
+    border-bottom: 2px solid #DCDBD7;
+}
+.tab .tab-t h4{
+    font-size: 16px;
+    font-weight: bolder;
+}
+.tab .tab-t strong{
+    font-weight: normal;
+    font-size: 12px;
+}
+.tab .tab-t span{
+    margin: 0 10px;
+}
+.tab .tab-c{
+    border-bottom: 2px solid #DCDBD7;
+
+}
+.tab .tab-c p{
+    width: 116px;
+    height: 31px;
+    line-height: 31px;
+    background: #EEEEEE;
+    font-size: 12px;
+    padding-left: 15px;
+    box-sizing: border-box;
+}
+.tab .tab-c ul{
+    margin-left: 10px;
+}
+.tab .tab-c li{
+    float: left;
+    font-size: 12px;
+    width: 46px;
+    height: 31px;
+    line-height: 31px;
+    text-align: center;
+}
+.tab .tab-c li a{
+    color: black;
+}
+.tab .tab-c input{
+    width: 46px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    border: 1px solid #E5E4E0;
+    background: #F5F4F0;
+    margin-top: 5px;
+}
+.tab .tab-b{
+    border-bottom: 2px solid #DCDBD7;
+}
+.tab .tab-c span{
+    font-size: 12px;
+    margin-top: 7px;
+}
+.tab .tab-b p{
+    width: 116px;
+    height: 31px;
+    line-height: 31px;
+    background: #EEEEEE;
+    font-size: 12px;
+    padding-left: 15px;
+    box-sizing: border-box;
+}
+.tab .tab-b ul{
+    margin-left: 10px;
+}
+.tab .tab-b li{
+    float: left;
+    font-size: 12px;
+    padding: 0 10px;
+    height: 31px;
+    line-height: 31px;
+    text-align: center;
+}
+.tab .tab-b input{
+    width: 46px;
+    height: 19px;
+    border: 1px solid #DCDBD7;
+    margin-top: 5px;
+}
+.tab .tab-b span{
+    margin: 0 10px;
+    margin-top: 5px;
+}
+.tab .tab-b input[type = button]{
+    background: #EFEFEF;
+    margin-left: 10px;
+    height: 21px;
+    line-height: 21px;
+    font-size: 12px;
+    text-align: center;
+}
+.cont{
+    height: 2000px;
+    position: relative;
+}
+.cont .top{
+    height: 45px;
+    background: #FEFEFE;
+    padding-top: 11px;
+    padding-right: 10px;
+    box-sizing: border-box;
+    margin-top: 15px;
+}
+.cont .top ul{
+    width: 385px;
+    height: 23px;
+    border: 1px solid #DCDBD7;
+    margin-left: 10px;
+}
+.cont .top ul .active{
+    width: 44px;
+    background: red;
+    margin-top: -1px;
+    height: 25px;
+    line-height: 25px;
+    padding: 0;
+    text-align: center;
+    color: #ffffff;
+}
+.cont .top li{
+    float: left;
+    padding: 3px 5px;
+    font-size: 12px;
+}
+.cont .top li p{
+    float: left;
+    margin-right: 10px;
+}
+.cont .top li p input{
+    margin-top: 3px;
+    vertical-align: middle;
+}
+.cont .top span{
+    width: 25px;
+    height: 21px;
+    line-height: 21px;
+    text-align: center;
+    font-size: 12px;
+    border: 1px solid #DCDBD7;
+}
+.cont .top>p{
+    width: 60px;
+    height: 23px;
+    line-height: 23px;
+    text-align: center;
+    font-size: 12px;
+}
+.cont .bot{
+    margin-top: 15px;
+}
+.cont .bot .part{
+    width: 226px;
+    height: 300px;
+    background: #ffffff;
+    margin-right: 15px;
+}
+.cont .bot .part:nth-child(5n){
+    margin-right: 0;
+}
+.cont .bot .part h5{
+    font-size: 12px;
+    margin-top: 10px;
+    padding: 0 5px;
+}
+.cont .bot .part>span{
+    display: block;
+    text-align: center;
+}
+.cont .bot .part p{
+    width: 110px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    border: 1px solid #DCDBD7;
+    padding: 0 5px;
+    box-sizing: border-box;
+    color: red;
+    margin-top: 5px;
+    margin-left: 3px;
+}
+
+.cont .bot .part p span{
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    background: red;
+    border-radius: 50%;
+    color: #ffffff;
+}
+.cont .paging{
+    width: 600px;
+    height: 40px;
+    position: absolute;
+    left: 50%;
+    bottom: 50px;
+    margin-left: -250px;
+    font-size: 12px;
+    
+}
+.cont .paging li{
+    float: left;
+    padding: 5px 15px;
+    background: #ffffff;
+    margin: 4px;
+    border: 1px solid #DCDBD7;
+    box-sizing: border-box;
+}
+.cont .paging span{
+    display: inline-block;
+    margin-top: 9px;
+    margin-right: 5px;
+}
+.cont .paging span input{
+    display: inline-block;
+    width: 46px;
+    height: 16px;
+    line-height: 16px;
+    text-align: center;
+}
+.cont .paging>input{
+    width: 41px;
+    height: 16px;
+    line-height: 16px;
+    text-align: center;
+    margin-top: 9px;
+    background: #ffffff;
+    font-size: 12px;
+}
+.footer{
+    margin-top: 50px;
+}
+.footer .top{
+    height: 90px;
+    border-bottom: 1px solid #797478;
+}
+.footer .top li{
+    float: left;
+    padding: 0 40px;
+    height: 46px;
+    border-right: 1px solid #797478;
+    line-height: 38px;
+}
+.footer .top li p{
+    float: left;
+    width: 34px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    border: 2px solid red;
+    font-size: 24px;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+.footer .top li .text{
+    float: left;
+    font-size: 12px;
+}
+.footer .top li .text div{
+    height: 24px;
+    line-height: 24px;
+}
+.footer .con{
+    height: 178px;
+    border-bottom: 1px solid #797478;
+    padding-top: 35px;
+    box-sizing: border-box;
+}
+.footer .con .col-links{
+    width: 161px;
+    float: left;
+    margin-left: 15px;
+}
+.footer .con .col-links a{
+    color: #757575;
+    font-size: 12px;
+}
+.footer .con .col-links dt{
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+.footer .con .col-links dd{
+    margin-left: 20px;
+   
+}
+.footer .con .col-contact{
+    width: 270px;
+}
+.footer .con .col-contact dd{
+    width: 180px;
+    line-height: 20px;
+    float: right;
+    margin-left: 0;
+    font-size: 12px;
+    color: #757575;
+}
+.footer .con .til{
+    margin-bottom: 10px;
+}
+.footer .bot{
+    padding-top: 20px;
+}
+.footer .bot p{
+    text-align: center;
+    font-size: 12px;
+    height: 24px;
+    line-height: 24px;
+    color: #757575;
+}
+.footer .bot p a{
+    color: #757575;
+}
+.footer .bot ul li{
+    float: left;
+    width: 106px;
+    height: 34px;
+    border: 1px solid #757575;
+    margin-left: 10px;
+}
+.footer .bot ul{
+    margin-left: 130px;
+}

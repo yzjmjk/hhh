@@ -1,0 +1,121 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1424",
+      "name": "电话",
+      "font_class": "dianhua",
+      "unicode": "f01ef",
+      "unicode_decimal": 983535
+    },
+    {
+      "icon_id": "97351",
+      "name": "礼品图标",
+      "font_class": "weibiaoti1",
+      "unicode": "e60b",
+      "unicode_decimal": 58891
+    },
+    {
+      "icon_id": "113675",
+      "name": "放大镜",
+      "font_class": "search2",
+      "unicode": "e62a",
+      "unicode_decimal": 58922
+    },
+    {
+      "icon_id": "339500",
+      "name": "会员",
+      "font_class": "huiyuan21",
+      "unicode": "e641",
+      "unicode_decimal": 58945
+    },
+    {
+      "icon_id": "772875",
+      "name": "纸张3",
+      "font_class": "zhizhang3",
+      "unicode": "e64d",
+      "unicode_decimal": 58957
+    },
+    {
+      "icon_id": "856394",
+      "name": "电话",
+      "font_class": "dianhua1",
+      "unicode": "e63b",
+      "unicode_decimal": 58939
+    },
+    {
+      "icon_id": "879437",
+      "name": "卫生纸",
+      "font_class": "weishengzhi",
+      "unicode": "e627",
+      "unicode_decimal": 58919
+    },
+    {
+      "icon_id": "1315587",
+      "name": "加油站",
+      "font_class": "jiayouzhan",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "2269862",
+      "name": "设备管理",
+      "font_class": "shebeiguanli",
+      "unicode": "e60c",
+      "unicode_decimal": 58892
+    },
+    {
+      "icon_id": "3187394",
+      "name": "手机",
+      "font_class": "shouji",
+      "unicode": "e614",
+      "unicode_decimal": 58900
+    },
+    {
+      "icon_id": "5325626",
+      "name": "手掌",
+      "font_class": "shouzhang",
+      "unicode": "e6ae",
+      "unicode_decimal": 59054
+    },
+    {
+      "icon_id": "7533278",
+      "name": "导航栏_模式02",
+      "font_class": "daohanglan_moshi",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "9512618",
+      "name": "地点",
+      "font_class": "position-fill",
+      "unicode": "e631",
+      "unicode_decimal": 58929
+    },
+    {
+      "icon_id": "9926626",
+      "name": "电脑桌，桌子",
+      "font_class": "diannaozhuozhuozi",
+      "unicode": "e634",
+      "unicode_decimal": 58932
+    },
+    {
+      "icon_id": "11177627",
+      "name": "购物车",
+      "font_class": "ziyuan",
+      "unicode": "e60e",
+      "unicode_decimal": 58894
+    },
+    {
+      "icon_id": "11746837",
+      "name": "回形针",
+      "font_class": "weibiaoti-",
+      "unicode": "e60f",
+      "unicode_decimal": 58895
+    }
+  ]
+}
